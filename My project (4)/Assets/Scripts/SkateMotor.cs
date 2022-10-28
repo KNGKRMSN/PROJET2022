@@ -5,7 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 
 public class SkateMotor : MonoBehaviour
-{
+{/*
 
     bool isGrounded = true;
     public float gravity = -9f;
@@ -88,5 +88,5 @@ public class SkateMotor : MonoBehaviour
         {
             isGrounded = false;
         }
-    }
+    }*/
 }

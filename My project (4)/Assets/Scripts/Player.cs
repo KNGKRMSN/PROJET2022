@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Player : MonoBehaviour
+/*public class Player : MonoBehaviour
 {
     public enum MovementMode
     {
@@ -167,4 +167,4 @@ public class Player : MonoBehaviour
         transform.Rotate(new Vector3(0, yAxisRotation, 0) * Time.deltaTime);
     }
     
-}
+}*/

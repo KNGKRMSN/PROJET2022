@@ -9,13 +9,10 @@ public class CameraController : MonoBehaviour
 
 
     private float distanceBehindPlayer = 10f;
-    private float height = 0.5f;
+    private float height = 1.5f;
     private float distanceToLookAtInFrontOfPlayer = 5f;
     //Private variable to store the offset distance between the player and camera
-
-    [SerializeField] private float mouseSensitivy = 0.5f;
-
-
+    
 
     // Start is called before the first frame update
     void Start()

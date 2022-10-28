@@ -64,6 +64,10 @@
     <Compile Include="Assets/Scripts/WallThrower.cs" />
     <Compile Include="Assets/Scripts/PlayerLocomotion.cs" />
     <Compile Include="Assets/Scripts/Player.cs" />
+    <Compile Include="Assets/Scripts/PlayerRb.cs" />
+    <Compile Include="Assets/Scripts/ThirdPersonCam.cs" />
+    <Compile Include="Assets/Scripts/PlayerMovement.cs" />
+    <Compile Include="Assets/Scripts/Sliding.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -797,6 +801,12 @@
     </Reference>
     <Reference Include="Autodesk.Fbx.Editor">
       <HintPath>Library/ScriptAssemblies/Autodesk.Fbx.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
