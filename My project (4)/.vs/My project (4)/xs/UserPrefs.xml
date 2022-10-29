@@ -1,26 +1,25 @@
 ﻿<Properties StartupConfiguration="{15DCF4D4-C92D-D7D8-1EDE-9B62906D5B60}|">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerMovement.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WallRunning.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerMovementTutorial.cs" Line="6" Column="28" />
       <File FileName="Assets/Scripts/WallRunning.cs" Line="47" Column="41" />
-      <File FileName="Assets/Scripts/WallThrower.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CameraController.cs" Line="12" Column="31" />
-      <File FileName="Assets/Scripts/Sliding.cs" Line="30" Column="41" />
-      <File FileName="Assets/Scripts/SkateMotor.cs" Line="91" Column="8" />
+      <File FileName="Assets/Scripts/WallThrower.cs" />
+      <File FileName="Assets/Scripts/CameraController.cs" />
+      <File FileName="Assets/Scripts/Sliding.cs" />
+      <File FileName="Assets/Scripts/SkateMotor.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="My project (4)" expanded="True" />
+          <Node name="My project (4)" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9d65fe34-d4fe-4e49-a4f8-711448d7af69" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1a718808-8adb-43a4-8e80-b0f22f50a9f7" />
 </Properties>

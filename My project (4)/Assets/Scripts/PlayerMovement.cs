@@ -110,7 +110,7 @@ public class PlayerMovement : MonoBehaviour
     private void MyInput()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
-        verticalInput = Input.GetAxisRaw("Vertical");
+        verticalInput = Input.GetAxis("Vertical");
 
         // when to jump
         if(Input.GetKey(jumpKey) && readyToJump && grounded)
@@ -136,16 +136,22 @@ public class PlayerMovement : MonoBehaviour
                 verticalInput /= ratio;
         }
 
-        if ((currentSpeed < moveSpeed) && verticalInput != 0)
+        if ((currentSpeed < moveSpeed) && verticalInput >= 0)
         {
                 currentSpeed += acceleration;
         }
 
-        if ((currentSpeed > 0) && verticalInput == 0)
+        /*if ((currentSpeed > 0) && verticalInput == 0)
         {
                 currentSpeed -= decceleration;
                 if (currentSpeed < 0)
                     currentSpeed = 0;
+        }*/
+        if ((currentSpeed > 0) && verticalInput < 0)
+        {
+            currentSpeed -= decceleration * 2;
+            if (currentSpeed < 0)
+                currentSpeed = 0;
         }
         float xAxisMovement = horizontalInput * xAxisMovementReduction;
         float zAxisMovement = currentSpeed;
